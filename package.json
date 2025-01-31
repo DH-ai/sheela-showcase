@@ -4,17 +4,27 @@
   "description": "1. Ability to add and remove task\r 2. Ability to modify the task from our website online  \r 3. Different views for Day, Week, Monthly\r 4. Ability to search for any date\r 5. Elastic Search to look for any task\r 6. Google Login firebase api and for calendar integeration Google Calendar api",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
+    "dev": "vite",
     "format": "prettier --write \"src/**/*.{js,jsx.css,htmlf}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "Dhruv Chaturved dhruvastro67@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
     "globals": "^15.9.0",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
