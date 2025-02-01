@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-
+import './styles/output.css';
 const App = () => {
   return (
     <div>
