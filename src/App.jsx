@@ -1,13 +1,19 @@
 import { createRoot } from "react-dom/client";
-import './styles/output.css';
+import LoginPage from "./login_page";
+import "./index.css";
 const App = () => {
   return (
-    <div>
-      <h1>Adopt Me!</h1>
-    </div>
+    <>
+      <div>
+        <h1 className="text-blue-500 text-center text-4xl bg-amber-300">
+          Adopt ddMesad!
+        </h1>
+      </div>
+      <LoginPage />
+    </>
   );
 };
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(<App />);
+const root = document.getElementById("root");
+
+createRoot(root).render(<App />);
