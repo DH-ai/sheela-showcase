@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "gocalfabint",
+    "public": "temp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
