@@ -15,6 +15,13 @@ export default [
             }
         }
     },
+    {
+        "env": {
+          "browser": true,
+          "node": true
+        }
+      }
+    ,
     reactPlugin.configs.flat["jsx-runtime"],
 	{
 		files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
